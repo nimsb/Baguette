@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+     id="svg4693" sodipodi:docname="mainNodeIcon.svg" inkscape:version="0.91 r13725"
+     xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+     xmlns:cc="http://creativecommons.org/ns#" xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px"
+     height="100px"
+     viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<sodipodi:namedview inkscape:window-x="-8" inkscape:current-layer="layer1" inkscape:window-width="1920"
+                    inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-y="-8"
+                    inkscape:window-height="1138" inkscape:window-maximized="1" inkscape:document-units="px"
+                    showgrid="false" inkscape:cy="29.5" inkscape:zoom="2" pagecolor="#000000" id="base"
+                    borderopacity="1.0" bordercolor="#666666" units="px" inkscape:cx="43.428571">
+	</sodipodi:namedview>
+    <g>
+	<path fill="#556080" d="M49.875,8.604c-0.92,0-1.667-0.439-1.667-0.979V2.729c0-0.541,0.747-0.979,1.667-0.979
+		c0.92,0,1.667,0.439,1.667,0.979v4.896C51.542,8.165,50.795,8.604,49.875,8.604z"/>
+        <path fill="#556080" d="M49.875,36.021c-0.92,0-1.667-0.439-1.667-0.979v-7.833c0-0.541,0.747-0.979,1.667-0.979
+		c0.92,0,1.667,0.439,1.667,0.979v7.833C51.542,35.582,50.795,36.021,49.875,36.021z"/>
+        <path fill="#556080" d="M49.875,60.5c-0.92,0-1.667-0.439-1.667-0.979v-4.896c0-0.54,0.747-0.979,1.667-0.979
+		c0.92,0,1.667,0.439,1.667,0.979v4.896C51.542,60.061,50.795,60.5,49.875,60.5z"/>
+        <path fill="#7383BF" d="M82.445,54.625h-65.14c-2.262,0-4.097-1.078-4.097-2.407v-14.77c0-1.329,1.835-2.407,4.097-2.407h65.138
+		c2.263,0,4.098,1.078,4.098,2.407v14.769C86.542,53.547,84.707,54.625,82.445,54.625z"/>
+        <path fill="#26B99A" d="M74.112,27.208H25.638c-2.262,0-4.097-1.078-4.097-2.407v-14.77c0-1.329,1.835-2.407,4.097-2.407H74.11
+		c2.263,0,4.098,1.078,4.098,2.407v14.769C78.208,26.13,76.373,27.208,74.112,27.208z"/>
+</g>
+</svg>

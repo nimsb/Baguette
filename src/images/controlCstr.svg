@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+     y="0px"
+     width="80px" height="28px" viewBox="-28.125 0 80 28" enable-background="new -28.125 0 80 28" xml:space="preserve">
+<g id="downHover">
+	<linearGradient id="_x3C_trace_x3E__4_" gradientUnits="userSpaceOnUse" x1="-28.125" y1="13.9165" x2="91.125"
+                    y2="13.9165">
+		<stop offset="0" style="stop-color:#404040"/>
+        <stop offset="1" style="stop-color:#000000"/>
+	</linearGradient>
+
+    <rect id="_x3C_trace_x3E__3_" x="-28.125" y="4.333" fill="url(#_x3C_trace_x3E__4_)" enable-background="new    "
+          width="119.25" height="19.167"/>
+</g>
+    <g id="down">
+	<linearGradient id="_x3C_trace_x3E__5_" gradientUnits="userSpaceOnUse" x1="-28.125" y1="13.9165" x2="91.125"
+                    y2="13.9165">
+		<stop offset="0" style="stop-color:#404040"/>
+        <stop offset="1" style="stop-color:#000000"/>
+	</linearGradient>
+
+        <rect id="_x3C_trace_x3E__2_" x="-28.125" y="4.333" fill="url(#_x3C_trace_x3E__5_)" enable-background="new    "
+              width="119.25" height="19.167"/>
+</g>
+    <g id="hover" display="none">
+	
+		<rect id="_x3C_trace_x3E__1_" x="-28.125" y="4.333" display="inline" enable-background="new    " width="119.25"
+              height="19.167"/>
+</g>
+    <g id="regular" display="none">
+	<rect id="_x3C_trace_x3E_" x="-28.125" y="4.333" display="inline" enable-background="new    " width="119.25"
+          height="19.167"/>
+</g>
+</svg>

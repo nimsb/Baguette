@@ -1,0 +1,17 @@
+Baguette is a drag, drop and connect system rig. Each item you create is a module which carries all the data of that item.
+The goal of this system is to provide the ability to easily develop rigs by junior riggers, but at the same time be capable of developing advanced rigs by a more senior rigger.
+
+To launch Baguette UI:
+from Baguette import reload_package
+reload_package()
+
+To use some of the rigUtils : 
+from Baguette.rigModule import rigUtils
+
+#copy skinning
+rigUtils.copySkin(source, sel)
+
+#mirror some shape
+rigUtils.mirrorShape()
+
+12/24/2018 : a more extensive documentation will come.

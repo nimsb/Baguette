@@ -1,0 +1,35 @@
+{
+    "postScriptRigPreset": {
+        "prependName": false, 
+        "prependNameTxt": "", 
+        "templateGrp": "postScriptRigPreset_TPL_grp", 
+        "lastNode": "dontUseMe_0_jnt", 
+        "firstNodeInputName": "", 
+        "idNode": "postScriptRigPreset", 
+        "controlers": [
+            {
+                "controlerName": "dontUseMe", 
+                "controlerShape": "none|13||y|4.0|0"
+            }
+        ], 
+        "posNode": [
+            16750.0, 
+            16650.0, 
+            0.0
+        ], 
+        "isTemplate": "[u'postScriptRigPreset_UseMe_template']", 
+        "preScriptString": "# from maya import cmds \n# from Baguette.utils import rigUtils \n",
+        "postScriptString": "# from maya import cmds \n# from Baguette.utils import rigUtils \n\nimport os\npathFile = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir, 'rigPreset'))\n\nprint pathFile",
+        "state": 2, 
+        "typeNode": "g_oneJointNode", 
+        "firstNode": "postScriptRigPreset_RIG_grp", 
+        "lodMod": 1, 
+        "templateJoints": [
+            {
+                "matrix": "maya.api.OpenMaya.MMatrix([1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0])"
+            }
+        ], 
+        "lastNodeOutputName": "", 
+        "side": "None"
+    }
+}

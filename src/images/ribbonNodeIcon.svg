@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:cc="http://creativecommons.org/ns#"
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:svg="http://www.w3.org/2000/svg"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+        xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+        version="1.1"
+        id="svg4693"
+        inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+        sodipodi:docname="ribbonNodeIcon.svg"
+        x="0px"
+        y="0px"
+        width="100px"
+        height="100px"
+        viewBox="0 0 100 100"
+        enable-background="new 0 0 100 100"
+        xml:space="preserve"><metadata
+   id="metadata19129"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+        rdf:resource="http://purl.org/dc/dcmitype/StillImage"/><dc:title></dc:title></cc:Work></rdf:RDF></metadata>
+    <defs
+            id="defs19127"/>
+    <sodipodi:namedview
+            id="base"
+            inkscape:zoom="7.12"
+            pagecolor="#000000"
+            showgrid="false"
+            inkscape:cy="59.42837"
+            bordercolor="#666666"
+            inkscape:cx="48.345827"
+            units="px"
+            borderopacity="1.0"
+            inkscape:window-height="1138"
+            inkscape:pageopacity="0"
+            inkscape:window-width="1920"
+            inkscape:current-layer="svg4693"
+            inkscape:document-units="px"
+            inkscape:window-maximized="1"
+            inkscape:pageshadow="2"
+            inkscape:window-y="-8"
+            inkscape:window-x="-8"
+            inkscape:snap-grids="false"
+            inkscape:snap-to-guides="false">
+	</sodipodi:namedview>
+
+    <rect
+            style="opacity:1;fill:#647196;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+            id="rect22029"
+            width="22.921741"
+            height="31.830849"
+            x="16.4041"
+            y="15.219713"/>
+    <rect
+            y="15.219713"
+            x="39.325844"
+            height="31.830849"
+            width="22.921741"
+            id="rect22031"
+            style="opacity:1;fill:#828dac;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"/>
+    <rect
+            style="opacity:1;fill:#98a1ba;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+            id="rect22033"
+            width="22.921741"
+            height="31.830849"
+            x="62.190617"
+            y="15.219713"/>
+    <circle
+            style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+            id="path22035"
+            cx="28.230337"
+            cy="31.03933"
+            r="1.264045"/>
+    <circle
+            r="1.264045"
+            cy="31.03933"
+            cx="51.123596"
+            id="circle22037"
+            style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"/>
+    <circle
+            style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+            id="circle22039"
+            cx="73.421349"
+            cy="31.03933"
+            r="1.264045"/></svg>

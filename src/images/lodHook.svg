@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+     y="0px"
+     width="20px" height="20px" viewBox="12.689 9.97 20 20" enable-background="new 12.689 9.97 20 20"
+     xml:space="preserve">
+<g id="hover">
+	<path fill="#FFFF66" d="M31.965,19.97c0,5.125-4.152,9.276-9.276,9.276c-5.123,0-9.276-4.151-9.276-9.276
+		c0-5.122,4.153-9.276,9.276-9.276C27.811,10.693,31.965,14.848,31.965,19.97z"/>
+</g>
+    <g id="regular">
+	<path fill="#6699CC" d="M31.965,19.97c0,5.125-4.152,9.276-9.276,9.276c-5.123,0-9.276-4.151-9.276-9.276
+		c0-5.122,4.153-9.276,9.276-9.276C27.811,10.693,31.965,14.848,31.965,19.97z"/>
+</g>
+</svg>

@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>Form</class>
+    <widget class="QWidget" name="Form">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>303</width>
+                <height>471</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>Form</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+                <layout class="QHBoxLayout" name="horizontalLayout">
+                    <item>
+                        <widget class="QLabel" name="label">
+                            <property name="text">
+                                <string>type :</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QRadioButton" name="follicle_rbtn">
+                            <property name="text">
+                                <string>follicle</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QRadioButton" name="facs_rbtn">
+                            <property name="text">
+                                <string>FACS</string>
+                            </property>
+                            <property name="checked">
+                                <bool>true</bool>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QRadioButton" name="adjustement_rbtn">
+                            <property name="text">
+                                <string>Adjustement Skin</string>
+                            </property>
+                        </widget>
+                    </item>
+                </layout>
+            </item>
+            <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_2">
+                    <item>
+                        <spacer name="horizontalSpacer">
+                            <property name="orientation">
+                                <enum>Qt::Horizontal</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>QSizePolicy::Maximum</enum>
+                            </property>
+                            <property name="sizeHint" stdset="0">
+                                <size>
+                                    <width>100</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                        </spacer>
+                    </item>
+                    <item>
+                        <widget class="QLabel" name="label_2">
+                            <property name="text">
+                                <string>Min</string>
+                            </property>
+                            <property name="alignment">
+                                <set>Qt::AlignCenter</set>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QLabel" name="label_3">
+                            <property name="text">
+                                <string>Max</string>
+                            </property>
+                            <property name="alignment">
+                                <set>Qt::AlignCenter</set>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <spacer name="horizontalSpacer_2">
+                            <property name="orientation">
+                                <enum>Qt::Horizontal</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>QSizePolicy::Maximum</enum>
+                            </property>
+                            <property name="sizeHint" stdset="0">
+                                <size>
+                                    <width>20</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                        </spacer>
+                    </item>
+                </layout>
+            </item>
+            <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_3">
+                    <item>
+                        <widget class="QCheckBox" name="transLimitXMin_cbx">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>100</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>100</width>
+                                    <height>16777215</height>
+                                </size>
+                            </property>
+                            <property name="layoutDirection">
+                                <enum>Qt::RightToLeft</enum>
+                            </property>
+                            <property name="text">
+                                <string>Trans limit X</string>
+                            </property>
+                            <property name="checked">
+                                <bool>true</bool>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QDoubleSpinBox" name="transLimitXMin_dsbx">
+                            <property name="buttonSymbols">
+                                <enum>QAbstractSpinBox::NoButtons</enum>
+                            </property>
+                            <property name="minimum">
+                                <double>-1000.000000000000000</double>
+                            </property>
+                            <property name="maximum">
+                                <double>1000.000000000000000</double>
+                            </property>
+                            <property name="value">
+                                <double>-1.000000000000000</double>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QDoubleSpinBox" name="transLimitXMax_dsbx">
+                            <property name="buttonSymbols">
+                                <enum>QAbstractSpinBox::NoButtons</enum>
+                            </property>
+                            <property name="minimum">
+                                <double>-1000.000000000000000</double>
+                            </property>
+                            <property name="maximum">
+                                <double>1000.000000000000000</double>
+                            </property>
+                            <property name="value">
+                                <double>1.000000000000000</double>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QCheckBox" name="transLimitXMax_cbx">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>20</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string/>
+                            </property>
+                            <property name="checked">
+                                <bool>true</bool>
+                            </property>
+                        </widget>
+                    </item>
+                </layout>
+            </item>
+            <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_4">
+                    <item>
+                        <widget class="QCheckBox" name="transLimitYMin_cbx">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>100</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>100</width>
+                                    <height>16777215</height>
+                                </size>
+                            </property>
+                            <property name="layoutDirection">
+                                <enum>Qt::RightToLeft</enum>
+                            </property>
+                            <property name="text">
+                                <string>Trans limit Y</string>
+                            </property>
+                            <property name="checked">
+                                <bool>true</bool>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QDoubleSpinBox" name="transLimitYMin_dsbx">
+                            <property name="buttonSymbols">
+                                <enum>QAbstractSpinBox::NoButtons</enum>
+                            </property>
+                            <property name="minimum">
+                                <double>-1000.000000000000000</double>
+                            </property>
+                            <property name="maximum">
+                                <double>1000.000000000000000</double>
+                            </property>
+                            <property name="value">
+                                <double>-1.000000000000000</double>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QDoubleSpinBox" name="transLimitYMax_dsbx">
+                            <property name="buttonSymbols">
+                                <enum>QAbstractSpinBox::NoButtons</enum>
+                            </property>
+                            <property name="minimum">
+                                <double>-1000.000000000000000</double>
+                            </property>
+                            <property name="maximum">
+                                <double>1000.000000000000000</double>
+                            </property>
+                            <property name="value">
+                                <double>1.000000000000000</double>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QCheckBox" name="transLimitYMax_cbx">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>20</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string/>
+                            </property>
+                            <property name="checked">
+                                <bool>true</bool>
+                            </property>
+                        </widget>
+                    </item>
+                </layout>
+            </item>
+            <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_5">
+                    <item>
+                        <widget class="QCheckBox" name="transLimitZMin_cbx">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>100</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>100</width>
+                                    <height>16777215</height>
+                                </size>
+                            </property>
+                            <property name="layoutDirection">
+                                <enum>Qt::RightToLeft</enum>
+                            </property>
+                            <property name="text">
+                                <string>Trans limit Z</string>
+                            </property>
+                            <property name="checked">
+                                <bool>true</bool>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QDoubleSpinBox" name="transLimitZMin_dsbx">
+                            <property name="buttonSymbols">
+                                <enum>QAbstractSpinBox::NoButtons</enum>
+                            </property>
+                            <property name="minimum">
+                                <double>-1000.000000000000000</double>
+                            </property>
+                            <property name="maximum">
+                                <double>1000.000000000000000</double>
+                            </property>
+                            <property name="value">
+                                <double>-1.000000000000000</double>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QDoubleSpinBox" name="transLimitZMax_dsbx">
+                            <property name="buttonSymbols">
+                                <enum>QAbstractSpinBox::NoButtons</enum>
+                            </property>
+                            <property name="minimum">
+                                <double>-1000.000000000000000</double>
+                            </property>
+                            <property name="maximum">
+                                <double>1000.000000000000000</double>
+                            </property>
+                            <property name="value">
+                                <double>1.000000000000000</double>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QCheckBox" name="transLimitZMax_cbx">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>20</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string/>
+                            </property>
+                            <property name="checked">
+                                <bool>true</bool>
+                            </property>
+                        </widget>
+                    </item>
+                </layout>
+            </item>
+            <item>
+                <spacer name="verticalSpacer">
+                    <property name="orientation">
+                        <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>QSizePolicy::Minimum</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                        <size>
+                            <width>20</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+            </item>
+            <item>
+                <widget class="QLabel" name="label_4">
+                    <property name="text">
+                        <string>---Hide and lock list---</string>
+                    </property>
+                    <property name="alignment">
+                        <set>Qt::AlignCenter</set>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_6">
+                    <item>
+                        <layout class="QVBoxLayout" name="verticalLayout_2">
+                            <item>
+                                <layout class="QHBoxLayout" name="horizontalLayout_7">
+                                    <item>
+                                        <widget class="QCheckBox" name="hideLockTX_cbx">
+                                            <property name="text">
+                                                <string>tx</string>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                    <item>
+                                        <widget class="QCheckBox" name="hideLockTY_cbx">
+                                            <property name="text">
+                                                <string>ty</string>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                    <item>
+                                        <widget class="QCheckBox" name="hideLockTZ_cbx">
+                                            <property name="text">
+                                                <string>tz</string>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                </layout>
+                            </item>
+                            <item>
+                                <layout class="QHBoxLayout" name="horizontalLayout_8">
+                                    <item>
+                                        <widget class="QCheckBox" name="hideLockRX_cbx">
+                                            <property name="text">
+                                                <string>rx</string>
+                                            </property>
+                                            <property name="checked">
+                                                <bool>true</bool>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                    <item>
+                                        <widget class="QCheckBox" name="hideLockRY_cbx">
+                                            <property name="text">
+                                                <string>ry</string>
+                                            </property>
+                                            <property name="checked">
+                                                <bool>true</bool>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                    <item>
+                                        <widget class="QCheckBox" name="hideLockRZ_cbx">
+                                            <property name="text">
+                                                <string>rz</string>
+                                            </property>
+                                            <property name="checked">
+                                                <bool>true</bool>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                </layout>
+                            </item>
+                            <item>
+                                <layout class="QHBoxLayout" name="horizontalLayout_9">
+                                    <item>
+                                        <widget class="QCheckBox" name="hideLockSX_cbx">
+                                            <property name="text">
+                                                <string>sx</string>
+                                            </property>
+                                            <property name="checked">
+                                                <bool>true</bool>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                    <item>
+                                        <widget class="QCheckBox" name="hideLockSY_cbx">
+                                            <property name="text">
+                                                <string>sy</string>
+                                            </property>
+                                            <property name="checked">
+                                                <bool>true</bool>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                    <item>
+                                        <widget class="QCheckBox" name="hideLockSZ_cbx">
+                                            <property name="text">
+                                                <string>sz</string>
+                                            </property>
+                                            <property name="checked">
+                                                <bool>true</bool>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                </layout>
+                            </item>
+                            <item>
+                                <spacer name="verticalSpacer_2">
+                                    <property name="orientation">
+                                        <enum>Qt::Vertical</enum>
+                                    </property>
+                                    <property name="sizeHint" stdset="0">
+                                        <size>
+                                            <width>20</width>
+                                            <height>40</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                            </item>
+                        </layout>
+                    </item>
+                    <item>
+                        <layout class="QVBoxLayout" name="verticalLayout_3">
+                            <item>
+                                <widget class="QTreeWidget" name="lockedAttribut_treeWidget">
+                                    <property name="autoScrollMargin">
+                                        <number>16</number>
+                                    </property>
+                                    <property name="indentation">
+                                        <number>0</number>
+                                    </property>
+                                    <column>
+                                        <property name="text">
+                                            <string>other locked attributes</string>
+                                        </property>
+                                    </column>
+                                </widget>
+                            </item>
+                            <item>
+                                <layout class="QHBoxLayout" name="horizontalLayout_10">
+                                    <item>
+                                        <widget class="QPushButton" name="addLockAttribute_btn">
+                                            <property name="text">
+                                                <string>+</string>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                    <item>
+                                        <widget class="QPushButton" name="rmvLockAttribute_btn">
+                                            <property name="text">
+                                                <string>-</string>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                </layout>
+                            </item>
+                        </layout>
+                    </item>
+                </layout>
+            </item>
+            <item>
+                <spacer name="verticalSpacer_3">
+                    <property name="orientation">
+                        <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>QSizePolicy::Minimum</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                        <size>
+                            <width>20</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+            </item>
+            <item>
+                <widget class="QLabel" name="label_5">
+                    <property name="text">
+                        <string>--- Connect controler to target blendshape---</string>
+                    </property>
+                    <property name="alignment">
+                        <set>Qt::AlignCenter</set>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QTreeWidget" name="targetBlendshapeConnection_treeWidget">
+                    <property name="horizontalScrollBarPolicy">
+                        <enum>Qt::ScrollBarAlwaysOff</enum>
+                    </property>
+                    <property name="sizeAdjustPolicy">
+                        <enum>QAbstractScrollArea::AdjustToContentsOnFirstShow</enum>
+                    </property>
+                    <property name="autoScroll">
+                        <bool>true</bool>
+                    </property>
+                    <property name="autoScrollMargin">
+                        <number>16</number>
+                    </property>
+                    <property name="indentation">
+                        <number>0</number>
+                    </property>
+                    <attribute name="headerMinimumSectionSize">
+                        <number>30</number>
+                    </attribute>
+                    <attribute name="headerDefaultSectionSize">
+                        <number>70</number>
+                    </attribute>
+                    <column>
+                        <property name="text">
+                            <string>target</string>
+                        </property>
+                    </column>
+                    <column>
+                        <property name="text">
+                            <string>attribute</string>
+                        </property>
+                    </column>
+                    <column>
+                        <property name="text">
+                            <string>from</string>
+                        </property>
+                    </column>
+                    <column>
+                        <property name="text">
+                            <string>to</string>
+                        </property>
+                    </column>
+                </widget>
+            </item>
+            <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_11">
+                    <item>
+                        <widget class="QPushButton" name="addTargetConnection_btn">
+                            <property name="text">
+                                <string>Add</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QPushButton" name="rmvTargetConnection_btn">
+                            <property name="text">
+                                <string>Remove</string>
+                            </property>
+                        </widget>
+                    </item>
+                </layout>
+            </item>
+        </layout>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>

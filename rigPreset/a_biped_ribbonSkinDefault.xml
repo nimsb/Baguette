@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<deformerWeight>
+    <headerInfo fileName="C:/Users/nims.bun/Documents/maya/projects/MID/ribbonSkin2.xml"
+                worldMatrix="1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 "/>
+    <shape name="SpineRibbonRibbon_surfaceShape" group="79" stride="3" size="32" max="32">
+        <point index="0" value=" 3.257204 101.538486 0.559093"/>
+        <point index="1" value=" -3.257204 101.541852 0.411032"/>
+        <point index="2" value=" 3.257204 103.042145 0.582707"/>
+        <point index="3" value=" -3.257204 103.045511 0.434645"/>
+        <point index="4" value=" 3.257204 106.049925 0.682578"/>
+        <point index="5" value=" -3.257204 106.053291 0.534516"/>
+        <point index="6" value=" 3.257204 110.552394 0.967181"/>
+        <point index="7" value=" -3.257204 110.555760 0.819120"/>
+        <point index="8" value=" 3.257204 115.056083 1.273373"/>
+        <point index="9" value=" -3.257204 115.059449 1.125311"/>
+        <point index="10" value=" 3.257204 119.571451 1.252828"/>
+        <point index="11" value=" -3.257204 119.574817 1.104766"/>
+        <point index="12" value=" 3.257204 124.072590 0.877547"/>
+        <point index="13" value=" -3.257204 124.075956 0.729485"/>
+        <point index="14" value=" 3.257204 128.533127 0.199692"/>
+        <point index="15" value=" -3.257204 128.536493 0.051630"/>
+        <point index="16" value=" 3.257204 132.998245 -0.469205"/>
+        <point index="17" value=" -3.257204 133.001611 -0.617267"/>
+        <point index="18" value=" 3.257204 137.481504 -0.946895"/>
+        <point index="19" value=" -3.257204 137.484870 -1.094957"/>
+        <point index="20" value=" 3.257204 142.013042 -1.064900"/>
+        <point index="21" value=" -3.257204 142.016408 -1.212962"/>
+        <point index="22" value=" 3.257204 146.447493 -0.122997"/>
+        <point index="23" value=" -3.257204 146.450859 -0.271059"/>
+        <point index="24" value=" 3.257204 150.893654 0.608782"/>
+        <point index="25" value=" -3.257204 150.897020 0.460721"/>
+        <point index="26" value=" 3.257204 155.395388 1.013651"/>
+        <point index="27" value=" -3.257204 155.398754 0.865590"/>
+        <point index="28" value=" 3.257204 158.402489 1.065341"/>
+        <point index="29" value=" -3.257204 158.405855 0.917280"/>
+        <point index="30" value=" 3.257204 159.906658 1.096292"/>
+        <point index="31" value=" -3.257204 159.910024 0.948231"/>
+    </shape>
+    <weights deformer="skinCluster603" source="Center_Spine1_0_sknJnt" shape="SpineRibbonRibbon_surfaceShape" layer="0"
+             defaultValue="0.000" size="8" max="7">
+        <point index="0" value="1.000"/>
+        <point index="1" value="1.000"/>
+        <point index="2" value="0.983"/>
+        <point index="3" value="0.983"/>
+        <point index="4" value="0.726"/>
+        <point index="5" value="0.725"/>
+        <point index="6" value="0.023"/>
+        <point index="7" value="0.022"/>
+    </weights>
+    <weights deformer="skinCluster603" source="Center_Spine2_0_sknJnt" shape="SpineRibbonRibbon_surfaceShape" layer="1"
+             defaultValue="0.000" size="14" max="17">
+        <point index="2" value="0.017"/>
+        <point index="3" value="0.017"/>
+        <point index="4" value="0.274"/>
+        <point index="5" value="0.275"/>
+        <point index="6" value="0.977"/>
+        <point index="7" value="0.978"/>
+        <point index="8" value="0.959"/>
+        <point index="9" value="0.960"/>
+        <point index="10" value="0.185"/>
+        <point index="11" value="0.184"/>
+        <point index="14" value="0.013"/>
+        <point index="15" value="0.013"/>
+        <point index="16" value="0.026"/>
+        <point index="17" value="0.026"/>
+    </weights>
+    <weights deformer="skinCluster603" source="Center_Chest_0_sknJnt" shape="SpineRibbonRibbon_surfaceShape" layer="2"
+             defaultValue="0.000" size="16" max="23">
+        <point index="8" value="0.041"/>
+        <point index="9" value="0.040"/>
+        <point index="10" value="0.815"/>
+        <point index="11" value="0.816"/>
+        <point index="12" value="1.000"/>
+        <point index="13" value="1.000"/>
+        <point index="14" value="0.987"/>
+        <point index="15" value="0.987"/>
+        <point index="16" value="0.974"/>
+        <point index="17" value="0.974"/>
+        <point index="18" value="1.000"/>
+        <point index="19" value="1.000"/>
+        <point index="20" value="1.000"/>
+        <point index="21" value="1.000"/>
+        <point index="22" value="0.011"/>
+        <point index="23" value="0.011"/>
+    </weights>
+    <weights deformer="skinCluster603" source="Center_Neck1_0_sknJnt" shape="SpineRibbonRibbon_surfaceShape" layer="3"
+             defaultValue="0.000" size="4" max="25">
+        <point index="22" value="0.617"/>
+        <point index="23" value="0.630"/>
+        <point index="24" value="0.047"/>
+        <point index="25" value="0.046"/>
+    </weights>
+    <weights deformer="skinCluster603" source="Center_Neck2_0_sknJnt" shape="SpineRibbonRibbon_surfaceShape" layer="4"
+             defaultValue="0.000" size="10" max="31">
+        <point index="22" value="0.372"/>
+        <point index="23" value="0.358"/>
+        <point index="24" value="0.953"/>
+        <point index="25" value="0.954"/>
+        <point index="26" value="0.941"/>
+        <point index="27" value="0.941"/>
+        <point index="28" value="0.019"/>
+        <point index="29" value="0.019"/>
+        <point index="30" value="0.007"/>
+        <point index="31" value="0.007"/>
+    </weights>
+    <weights deformer="skinCluster603" source="Center_Head_0_sknJnt" shape="SpineRibbonRibbon_surfaceShape" layer="5"
+             defaultValue="0.000" size="6" max="31">
+        <point index="26" value="0.059"/>
+        <point index="27" value="0.059"/>
+        <point index="28" value="0.981"/>
+        <point index="29" value="0.981"/>
+        <point index="30" value="0.993"/>
+        <point index="31" value="0.993"/>
+    </weights>
+</deformerWeight>

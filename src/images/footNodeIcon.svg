@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:cc="http://creativecommons.org/ns#"
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:svg="http://www.w3.org/2000/svg"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+        xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+        version="1.1"
+        id="svg4693"
+        inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+        sodipodi:docname="footNodeIcon.svg"
+        x="0px"
+        y="0px"
+        width="100px"
+        height="100px"
+        viewBox="0 0 100 100"
+        enable-background="new 0 0 100 100"
+        xml:space="preserve"><metadata
+   id="metadata19129"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+        rdf:resource="http://purl.org/dc/dcmitype/StillImage"/><dc:title/></cc:Work></rdf:RDF></metadata>
+    <defs
+            id="defs19127"/>
+    <sodipodi:namedview
+            id="base"
+            inkscape:zoom="7.12"
+            pagecolor="#000000"
+            showgrid="false"
+            inkscape:cy="47.84388"
+            bordercolor="#666666"
+            inkscape:cx="57.324809"
+            units="px"
+            borderopacity="1.0"
+            inkscape:window-height="1138"
+            inkscape:pageopacity="0"
+            inkscape:window-width="1920"
+            inkscape:current-layer="svg4693"
+            inkscape:document-units="px"
+            inkscape:window-maximized="1"
+            inkscape:pageshadow="2"
+            inkscape:window-y="-8"
+            inkscape:window-x="-8"
+            inkscape:snap-grids="false"
+            inkscape:snap-to-guides="false">
+	</sodipodi:namedview>
+
+    <path
+            inkscape:connector-curvature="0"
+            id="path20864"
+            d="M 60.348518,19.498729 C 29.956149,37.260554 23.748147,42.35234 12.964822,40.383666 c 0.644876,9.709754 1.074021,9.15435 2.851682,11.239882 C 31.37609,61.79875 43.533206,40.240859 66.528293,48.955016 Z"
+            style="display:inline;opacity:1;fill:#6c80b5;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+            sodipodi:nodetypes="ccccc"/>
+    <path
+            sodipodi:nodetypes="ccccc"
+            style="display:inline;opacity:1;fill:#b7becf;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+            d="m 84.590066,19.498729 c -3.837742,16.120508 -22.965445,12.939119 -24.241548,0 l 6.179775,29.456287 c 10.924537,6.914303 16.845356,3.662912 20.14274,1.123596 7.14683,-8.170558 2.96789,-20.877759 -2.080967,-30.579883 z"
+            id="path21430"
+            inkscape:connector-curvature="0"/>
+    <ellipse
+            style="opacity:1;fill:#558995;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+            id="path21432"
+            cx="72.294945"
+            cy="17.02809"
+            rx="11.587079"
+            ry="12.35955"/></svg>

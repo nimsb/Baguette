@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>Form</class>
+    <widget class="QWidget" name="Form">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>603</width>
+                <height>598</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>Form</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+                <layout class="QGridLayout" name="textGridLayout">
+                    <item row="3" column="0" colspan="2">
+                        <widget class="QSlider" name="controlers_slider">
+                            <property name="minimumSize">
+                                <size>
+                                    <width>200</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="minimum">
+                                <number>0</number>
+                            </property>
+                            <property name="maximum">
+                                <number>7</number>
+                            </property>
+                            <property name="orientation">
+                                <enum>Qt::Horizontal</enum>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="1" column="0" colspan="3">
+                        <widget class="QLabel" name="separator_1">
+                            <property name="frameShape">
+                                <enum>QFrame::HLine</enum>
+                            </property>
+                            <property name="frameShadow">
+                                <enum>QFrame::Raised</enum>
+                            </property>
+                            <property name="lineWidth">
+                                <number>0</number>
+                            </property>
+                            <property name="midLineWidth">
+                                <number>1</number>
+                            </property>
+                            <property name="text">
+                                <string/>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="5" column="2">
+                        <widget class="QLineEdit" name="bonesSlidr_label">
+                            <property name="maximumSize">
+                                <size>
+                                    <width>30</width>
+                                    <height>16777215</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string>0</string>
+                            </property>
+                            <property name="alignment">
+                                <set>Qt::AlignCenter</set>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="4" column="0" colspan="3">
+                        <widget class="QLabel" name="numBones_label">
+                            <property name="text">
+                                <string>How Many bones ?</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="3" column="2">
+                        <widget class="QLineEdit" name="ctrlSlidr_label">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>30</width>
+                                    <height>16777215</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string>1</string>
+                            </property>
+                            <property name="alignment">
+                                <set>Qt::AlignCenter</set>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="6" column="0" colspan="3">
+                        <widget class="QLabel" name="separator_2">
+                            <property name="frameShape">
+                                <enum>QFrame::HLine</enum>
+                            </property>
+                            <property name="frameShadow">
+                                <enum>QFrame::Raised</enum>
+                            </property>
+                            <property name="lineWidth">
+                                <number>0</number>
+                            </property>
+                            <property name="midLineWidth">
+                                <number>1</number>
+                            </property>
+                            <property name="text">
+                                <string/>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="0" column="1" colspan="2">
+                        <widget class="QLineEdit" name="idText"/>
+                    </item>
+                    <item row="2" column="0" colspan="3">
+                        <widget class="QLabel" name="numControler_label">
+                            <property name="text">
+                                <string>How Many Controlers ?</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="5" column="0" colspan="2">
+                        <widget class="QSlider" name="bones_slider">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>0</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="orientation">
+                                <enum>Qt::Horizontal</enum>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="0" column="0">
+                        <widget class="QLabel" name="idLabel">
+                            <property name="text">
+                                <string>Name (Chain) :</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="7" column="1">
+                        <widget class="QLabel" name="empty_label">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                                    <horstretch>1</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="text">
+                                <string></string>
+                            </property>
+                        </widget>
+                    </item>
+                </layout>
+            </item>
+            <item>
+                <widget class="QLabel" name="label_9">
+                    <property name="text">
+                        <string>Python code will be executed after the rig is done :</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QPlainTextEdit" name="script_plainTextEdit">
+                    <property name="plainText">
+                        <string>import maya.cmds as mc</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QLabel" name="blockEmpty_label">
+                    <property name="sizePolicy">
+                        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                            <horstretch>0</horstretch>
+                            <verstretch>1</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="text">
+                        <string></string>
+                    </property>
+                </widget>
+            </item>
+        </layout>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+     id="Layer_1" inkscape:version="0.91 r13725" sodipodi:docname="mainNode.svg"
+     xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:svg="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="218.93px"
+     height="208px"
+     viewBox="0 0 218.93 208" enable-background="new 0 0 218.93 208" xml:space="preserve">
+<g id="selectedTemplate">
+	<rect id="rect43_3_" y="0" width="218.93" height="90.398"/>
+    <line id="leftWhiteLine_1_" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="0.465" y1="90.398" x2="0.465"
+          y2="0"/>
+    <line id="rightWhiteLine_1_" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="218.465" y1="90.398"
+          x2="218.465" y2="0"/>
+    <line id="line45_3_" fill="none" stroke="#666666" stroke-miterlimit="10" x1="12.798" y1="61.065" x2="204.798"
+          y2="61.065"/>
+
+    <line id="topWhiteLine_1_" display="none" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="0" y1="0"
+          x2="218.93" y2="0"/>
+</g>
+    <g id="notSelectedTemplate">
+	<rect id="rect43_4_" y="0" width="218.93" height="90.398"/>
+        <line id="line45_4_" fill="none" stroke="#666666" stroke-miterlimit="10" x1="12.798" y1="61.065" x2="204.798"
+              y2="61.065"/>
+</g>
+    <g id="selected">
+	<rect id="rect43_1_" y="0" width="218.93" height="90.398"/>
+        <line id="leftWhiteLine" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="0.465" y1="90.398" x2="0.465"
+              y2="0"/>
+        <line id="rightWhiteLine" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="218.465" y1="90.398"
+              x2="218.465" y2="0"/>
+        <line id="line45_1_" fill="none" stroke="#666666" stroke-miterlimit="10" x1="12.798" y1="61.065" x2="204.798"
+              y2="61.065"/>
+        <line id="topWhiteLine" display="none" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="0" y1="0"
+              x2="218.93" y2="0"/>
+</g>
+    <g id="notSelected">
+	<rect id="rect43_2_" y="0" width="218.93" height="90.398"/>
+        <line id="line45_2_" fill="none" stroke="#666666" stroke-miterlimit="10" x1="12.798" y1="61.065" x2="204.798"
+              y2="61.065"/>
+</g>
+</svg>

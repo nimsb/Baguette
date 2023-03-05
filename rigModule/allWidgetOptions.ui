@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>Form</class>
+    <widget class="QWidget" name="Form">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>362</width>
+                <height>280</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>Form</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+                <widget class="QWidget" name="createIks_widget" native="true">
+                    <layout class="QHBoxLayout" name="horizontalLayout_3">
+                        <item>
+                            <widget class="QCheckBox" name="ikPins_chbx">
+                                <property name="text">
+                                    <string>Create Iks pin (num joint is locked if checked)</string>
+                                </property>
+                            </widget>
+                        </item>
+                    </layout>
+                </widget>
+            </item>
+            <item>
+                <widget class="QCheckBox" name="doubleJoint_ckb">
+                    <property name="text">
+                        <string>double Joint</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QWidget" name="allOptions_widget" native="true">
+                    <layout class="QVBoxLayout" name="verticalLayout_2">
+                        <property name="spacing">
+                            <number>0</number>
+                        </property>
+                        <property name="margin">
+                            <number>0</number>
+                        </property>
+                        <item>
+                            <widget class="QWidget" name="numTwist_widget" native="true">
+                                <layout class="QHBoxLayout" name="horizontalLayout">
+                                    <item>
+                                        <widget class="QLabel" name="label">
+                                            <property name="text">
+                                                <string>num twist :</string>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                    <item>
+                                        <widget class="QSpinBox" name="numTwist_box">
+                                            <property name="buttonSymbols">
+                                                <enum>QAbstractSpinBox::NoButtons</enum>
+                                            </property>
+                                            <property name="maximum">
+                                                <number>3</number>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                    <item>
+                                        <widget class="QLabel" name="label_3">
+                                            <property name="text">
+                                                <string>(max 3)</string>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                    <item>
+                                        <widget class="QLabel" name="label_2">
+                                            <property name="sizePolicy">
+                                                <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+                                                    <horstretch>0</horstretch>
+                                                    <verstretch>0</verstretch>
+                                                </sizepolicy>
+                                            </property>
+                                            <property name="text">
+                                                <string/>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                </layout>
+                            </widget>
+                        </item>
+                        <item>
+                            <widget class="QWidget" name="jointNum_widget" native="true">
+                                <layout class="QHBoxLayout" name="jointNum_layout">
+                                    <property name="spacing">
+                                        <number>0</number>
+                                    </property>
+                                    <item>
+                                        <widget class="QLabel" name="label_5">
+                                            <property name="text">
+                                                <string>num joint :</string>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                    <item>
+                                        <widget class="QSpinBox" name="numJoint_num">
+                                            <property name="maximumSize">
+                                                <size>
+                                                    <width>30</width>
+                                                    <height>16777215</height>
+                                                </size>
+                                            </property>
+                                            <property name="alignment">
+                                                <set>Qt::AlignCenter</set>
+                                            </property>
+                                            <property name="buttonSymbols">
+                                                <enum>QAbstractSpinBox::NoButtons</enum>
+                                            </property>
+                                            <property name="suffix">
+                                                <string/>
+                                            </property>
+                                            <property name="minimum">
+                                                <number>1</number>
+                                            </property>
+                                            <property name="value">
+                                                <number>1</number>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                    <item>
+                                        <widget class="QSlider" name="numJoint_slider">
+                                            <property name="minimum">
+                                                <number>1</number>
+                                            </property>
+                                            <property name="value">
+                                                <number>1</number>
+                                            </property>
+                                            <property name="orientation">
+                                                <enum>Qt::Horizontal</enum>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                </layout>
+                            </widget>
+                        </item>
+                        <item>
+                            <widget class="QWidget" name="defaultPosition_widget" native="true">
+                                <layout class="QHBoxLayout" name="horizontalLayout_2">
+                                    <item>
+                                        <widget class="QLabel" name="label_4">
+                                            <property name="text">
+                                                <string>default position :</string>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                    <item>
+                                        <widget class="QRadioButton" name="defaultX_radioBtn">
+                                            <property name="text">
+                                                <string>x</string>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                    <item>
+                                        <widget class="QRadioButton" name="defaultY_radioBtn">
+                                            <property name="text">
+                                                <string>y</string>
+                                            </property>
+                                            <property name="checked">
+                                                <bool>true</bool>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                    <item>
+                                        <widget class="QRadioButton" name="defaultZ_radioBtn">
+                                            <property name="text">
+                                                <string>z</string>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                    <item>
+                                        <widget class="QCheckBox" name="reverseOri_ckb">
+                                            <property name="text">
+                                                <string>Reverse</string>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                </layout>
+                            </widget>
+                        </item>
+                        <item>
+                            <widget class="QCheckBox" name="scalable_chbx">
+                                <property name="text">
+                                    <string>Scalable</string>
+                                </property>
+                                <property name="checkable">
+                                    <bool>true</bool>
+                                </property>
+                                <property name="checked">
+                                    <bool>true</bool>
+                                </property>
+                            </widget>
+                        </item>
+                    </layout>
+                </widget>
+            </item>
+            <item>
+                <widget class="QComboBox" name="typeSpace_qcb">
+                    <property name="layoutDirection">
+                        <enum>Qt::LeftToRight</enum>
+                    </property>
+                    <item>
+                        <property name="text">
+                            <string>Parent</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>Point</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>Orient</string>
+                        </property>
+                    </item>
+                </widget>
+            </item>
+        </layout>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+     y="0px"
+     width="23.75px" height="28px" viewBox="0 0 23.75 28" enable-background="new 0 0 23.75 28" xml:space="preserve">
+<g id="downHover">
+	
+		<rect id="_x3C_trace_x3E__7_" x="1.542" y="4.333" opacity="0.2" fill="#CCCCFF" enable-background="new    "
+              width="11.5" height="9"/>
+
+    <rect id="_x3C_trace_x3E__6_" x="6.125" y="4.333" opacity="0.9" fill="#6666FF" enable-background="new    "
+          width="11.5" height="19.167"/>
+</g>
+    <g id="down">
+	
+		<rect id="_x3C_trace_x3E__2_" x="1.542" y="4.333" opacity="0.2" fill="#CCCCFF" enable-background="new    "
+              width="11.5" height="9"/>
+
+        <rect id="_x3C_trace_x3E__3_" x="6.125" y="4.333" opacity="0.9" fill="#6666FF" enable-background="new    "
+              width="11.5" height="19.167"/>
+</g>
+    <g id="hover">
+	
+		<rect id="_x3C_trace_x3E__5_" x="6.125" y="4.333" opacity="0.2" fill="#CCCCFF" enable-background="new    "
+              width="11.5" height="19.167"/>
+
+        <rect id="_x3C_trace_x3E__4_" x="1.542" y="4.333" opacity="0.9" fill="#6666FF" enable-background="new    "
+              width="11.5" height="9"/>
+</g>
+    <g id="regular">
+	
+		<rect id="_x3C_trace_x3E__1_" x="6.125" y="4.333" opacity="0.2" fill="#CCCCFF" enable-background="new    "
+              width="11.5" height="19.167"/>
+
+        <rect id="_x3C_trace_x3E_" x="1.542" y="4.333" opacity="0.9" fill="#6666FF" enable-background="new    "
+              width="11.5" height="9"/>
+</g>
+</svg>

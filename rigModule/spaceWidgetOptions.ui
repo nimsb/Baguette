@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>Form</class>
+    <widget class="QWidget" name="Form">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>334</width>
+                <height>261</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>Form</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+                <widget class="QTreeWidget" name="nameAttribut_treeWidget">
+                    <property name="autoScrollMargin">
+                        <number>16</number>
+                    </property>
+                    <column>
+                        <property name="text">
+                            <string>Connected</string>
+                        </property>
+                    </column>
+                    <column>
+                        <property name="text">
+                            <string>Names of enum</string>
+                        </property>
+                    </column>
+                    <item>
+                        <property name="text">
+                            <string>controlerGrp</string>
+                        </property>
+                        <property name="text">
+                            <string>Local</string>
+                        </property>
+                        <property name="flags">
+                            <set>ItemIsSelectable|ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled
+                            </set>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string/>
+                        </property>
+                        <property name="text">
+                            <string>Global</string>
+                        </property>
+                        <property name="flags">
+                            <set>ItemIsSelectable|ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled
+                            </set>
+                        </property>
+                    </item>
+                </widget>
+            </item>
+            <item>
+                <layout class="QHBoxLayout" name="horizontalLayout">
+                    <item>
+                        <widget class="QPushButton" name="addItem_btn">
+                            <property name="text">
+                                <string>+</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QPushButton" name="removeItem_btn">
+                            <property name="text">
+                                <string>-</string>
+                            </property>
+                        </widget>
+                    </item>
+                </layout>
+            </item>
+            <item>
+                <widget class="QComboBox" name="typeSpace_qcb">
+                    <property name="layoutDirection">
+                        <enum>Qt::LeftToRight</enum>
+                    </property>
+                    <item>
+                        <property name="text">
+                            <string>Parent</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>Point</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>Orient</string>
+                        </property>
+                    </item>
+                </widget>
+            </item>
+        </layout>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>

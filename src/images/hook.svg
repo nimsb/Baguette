@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+     y="0px"
+     width="27px" height="27px" viewBox="-0.811 -0.53 27 27" enable-background="new -0.811 -0.53 27 27"
+     xml:space="preserve">
+<g id="downHover">
+	<path fill="#FFFF33" d="M25.085,13.042c0,6.653-5.39,12.042-12.042,12.042C6.391,25.084,1,19.695,1,13.042
+		C1,6.394,6.391,1,13.042,1C19.692,1,25.085,6.394,25.085,13.042z"/>
+</g>
+    <g id="hover">
+	<path fill="#FFFF33" d="M25.085,13.042c0,6.653-5.39,12.042-12.042,12.042C6.391,25.084,1,19.695,1,13.042
+		C1,6.394,6.391,1,13.042,1C19.692,1,25.085,6.394,25.085,13.042z"/>
+</g>
+    <g id="down">
+	<path fill="#006600" d="M25.085,13.042c0,6.653-5.39,12.042-12.042,12.042C6.391,25.084,1,19.695,1,13.042
+		C1,6.394,6.391,1,13.042,1C19.692,1,25.085,6.394,25.085,13.042z"/>
+</g>
+    <g id="regular">
+	<path fill="#006600" d="M25.085,13.042c0,6.653-5.39,12.042-12.042,12.042C6.391,25.084,1,19.695,1,13.042
+		C1,6.394,6.391,1,13.042,1C19.692,1,25.085,6.394,25.085,13.042z"/>
+</g>
+</svg>
