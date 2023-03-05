@@ -1,5 +1,8 @@
 Baguette is a drag, drop and connect system rig. Each item you create is a module which carries all the data of that item.
-The goal of this system is to provide the ability to easily develop rigs by junior riggers, but at the same time be capable of developing advanced rigs by a more senior rigger.
+The goal of this system is to provide the ability to easily develop rigs by any riggers from all level. 
+
+The python compiled code version(.pyd files) here is for Maya 2023 on windows. the python files (.py),  and qt (.ui) files works for any version. 
+Please check the released version to have access to other Maya compiled code (2019, 2020 and 2022)
 
 To launch Baguette UI:
 from Baguette import reload_package
@@ -14,4 +17,4 @@ rigUtils.copySkin(source, sel)
 #mirror some shape
 rigUtils.mirrorShape()
 
-12/24/2018 : a more extensive documentation will come.
+TO DO : a more extensive documentation will come.
