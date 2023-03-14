@@ -4,6 +4,12 @@ The goal of this system is to provide the ability to easily develop rigs by any 
 The python compiled code version(.pyd files) here is for Maya 2023 on windows. the python files (.py),  and qt (.ui) files works for any version. 
 Please check the released version to have access to other Maya compiled code (2019, 2020 and 2022)
 
+INSTALL
+- go to the release page : https://github.com/nimsb/Baguette/releases
+- VERY IMPORTANT : download the version according to your Maya version 
+- install it into your Maya script folder. You should have something like this
+![alt text](https://ibb.co/W2r7F4z)
+
 To launch Baguette UI:
 from Baguette import reload_package
 reload_package()
