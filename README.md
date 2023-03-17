@@ -7,7 +7,7 @@ Please check the released version to have access to other Maya compiled code (20
 INSTALL
 - go to the release page : https://github.com/nimsb/Baguette/releases
 - VERY IMPORTANT : download the version according to your Maya version 
-- install it into your Maya script folder. You should have something like this
+- unzip the Baguette folder into your Maya script folder. You should have something like this
 
 ![alt text](https://i.ibb.co/MCzKpx1/image.png)
 
