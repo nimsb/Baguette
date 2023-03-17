@@ -19,7 +19,7 @@ reload_package()
 
 To use some of the rigUtils : 
 ```
-from Baguette.rigModule import rigUtils
+from Baguette.utils import rigUtils
 
 #copy skinning
 rigUtils.copySkin(source, sel)
